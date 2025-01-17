@@ -1,0 +1,1 @@
+This repository demonstrates a common Elixir error involving the improper use of `throw` within an `Enum.each` loop.  The example shows how using `throw` abruptly terminates the loop without proper error handling mechanisms.  The solution shows how to handle this appropriately using `try...catch` and how other approaches are usually preferred over `throw` in Elixir.
